@@ -74,7 +74,7 @@ const calculate = () => {
         default:
             return
     }
-    currentNumber=result.toFixed(2)
+    currentNumber=result
     calculationOperator = ''
 }
 const clearAll = ()=> {
